@@ -1,0 +1,12 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+    <deployment>
+        <dependencies>
+            <module name="deployment.mre-system-persistence-0.0.1-SNAPSHOT.jar" services="export" export="true"/>
+            <module name="deployment.mre-poc-dto-0.0.1-SNAPSHOT.jar" services="export" export="true"/>
+            <module name="org.hibernate" services="export"/>
+            <module name="javax.enterprise.api" services="export"/>
+        </dependencies>
+        <exclusions>
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>

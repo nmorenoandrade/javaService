@@ -1,0 +1,14 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+    <deployment>
+        <dependencies>
+            <module name="deployment.mre-poc-data-0.0.1-SNAPSHOT.jar" services="none" export="false"/>
+            <module name="deployment.mre-poc-dto-0.0.1-SNAPSHOT.jar" services="none" export="false"/>
+            <module name="javax.enterprise.api" services="export"/>
+            <module name="org.slf4j" services="export"/>
+            <module name="org.slf4j.impl" services="export"/>
+            <module name="org.modelmapper" services="export"/>
+        </dependencies>
+        <exclusions>
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>
